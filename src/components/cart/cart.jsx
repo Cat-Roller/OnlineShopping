@@ -43,7 +43,7 @@ const Cart=()=>{
             }
             <div className="bottom">
                 <div className="total">
-                    <span>SUBTOTAL</span>
+                    <span>SUBTOAL</span>
                     <span>$123</span>
                 </div>
                 <button className="order">Order</button>
