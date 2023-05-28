@@ -1,0 +1,27 @@
+.List{
+    margin: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    .top{
+        display: flex;
+        gap: 260px;
+        align-items: center;
+        h1{
+            font-size: 26px;
+            flex: 2;
+        }
+        span{
+            font-size: 15px;
+            width: 500px;
+            flex: 3;
+        }
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,35 @@
+.contact{
+    background-color: rgb(0, 174, 255);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 150px;
+    justify-content: center;
+    .left{
+        .text{
+            margin-right: 10px;
+        }
+        .input{
+            border: none;
+            color: white;
+            height: 30px;
+            border-radius: 5px 0px 0px 5px;
+            padding-left: 5px;
+        }
+        .join{
+            background-color: #1b1b1b;
+            color: white;
+            border: none;
+            height: 30px;
+            width: 50px;
+            border-radius: 0px 5px 5px 0px;
+        }
+    }
+    .right{
+        color: white;
+        display: flex;
+        gap: 5px;
+
+    }
+}
